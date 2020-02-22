@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011F84A984C4E707EAB80BEB /* Pods_WaterJug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC723D762235C73361B191 /* Pods_WaterJug.framework */; };
+		F9392D0A240084BF00A70E65 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D09240084BF00A70E65 /* MainViewController.swift */; };
+		F9392D0C2400868F00A70E65 /* InputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D0B2400868F00A70E65 /* InputTableViewCell.swift */; };
+		F9392D0F2400877600A70E65 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D0E2400877600A70E65 /* MainViewModel.swift */; };
+		F9392D11240099F100A70E65 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D10240099F100A70E65 /* TableViewCell.swift */; };
+		F9392D1324009A6800A70E65 /* SubmitInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D1224009A6800A70E65 /* SubmitInputTableViewCell.swift */; };
+		F9392D1524009E5100A70E65 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D1424009E5100A70E65 /* UIViewController+Extension.swift */; };
+		F9392D172400A48000A70E65 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D162400A48000A70E65 /* Action.swift */; };
+		F9392D192400A58400A70E65 /* ActionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D182400A58400A70E65 /* ActionManager.swift */; };
+		F9392D1B2400AEE100A70E65 /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9392D1A2400AEE100A70E65 /* ActionTableViewCell.swift */; };
+		F994A97324007C230048CF12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F994A97224007C230048CF12 /* AppDelegate.swift */; };
+		F994A97C24007C280048CF12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F994A97B24007C280048CF12 /* Assets.xcassets */; };
+		F994A97F24007C280048CF12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F994A97D24007C280048CF12 /* LaunchScreen.storyboard */; };
+		F994A98724007D2F0048CF12 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F994A98624007D2F0048CF12 /* Container.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50BC723D762235C73361B191 /* Pods_WaterJug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterJug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		977DD00E90C412A5BFB7135B /* Pods-WaterJug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterJug.release.xcconfig"; path = "Target Support Files/Pods-WaterJug/Pods-WaterJug.release.xcconfig"; sourceTree = "<group>"; };
+		AB867F450850B297BBBB3FC0 /* Pods-WaterJug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterJug.debug.xcconfig"; path = "Target Support Files/Pods-WaterJug/Pods-WaterJug.debug.xcconfig"; sourceTree = "<group>"; };
+		F9392D09240084BF00A70E65 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F9392D0B2400868F00A70E65 /* InputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTableViewCell.swift; sourceTree = "<group>"; };
+		F9392D0E2400877600A70E65 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F9392D10240099F100A70E65 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F9392D1224009A6800A70E65 /* SubmitInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitInputTableViewCell.swift; sourceTree = "<group>"; };
+		F9392D1424009E5100A70E65 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F9392D162400A48000A70E65 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		F9392D182400A58400A70E65 /* ActionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionManager.swift; sourceTree = "<group>"; };
+		F9392D1A2400AEE100A70E65 /* ActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
+		F994A96F24007C230048CF12 /* WaterJug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterJug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F994A97224007C230048CF12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F994A97B24007C280048CF12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F994A97E24007C280048CF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F994A98024007C280048CF12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F994A98624007D2F0048CF12 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F994A96C24007C230048CF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011F84A984C4E707EAB80BEB /* Pods_WaterJug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D808DBE3A1F203EF62C21AAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50BC723D762235C73361B191 /* Pods_WaterJug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4199E5ECF2F64732709B9B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB867F450850B297BBBB3FC0 /* Pods-WaterJug.debug.xcconfig */,
+				977DD00E90C412A5BFB7135B /* Pods-WaterJug.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9392D0D2400869200A70E65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D0B2400868F00A70E65 /* InputTableViewCell.swift */,
+				F9392D1224009A6800A70E65 /* SubmitInputTableViewCell.swift */,
+				F9392D1A2400AEE100A70E65 /* ActionTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F994A96624007C230048CF12 = {
+			isa = PBXGroup;
+			children = (
+				F994A97124007C230048CF12 /* WaterJug */,
+				F994A97024007C230048CF12 /* Products */,
+				F4199E5ECF2F64732709B9B2 /* Pods */,
+				D808DBE3A1F203EF62C21AAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F994A97024007C230048CF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F994A96F24007C230048CF12 /* WaterJug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F994A97124007C230048CF12 /* WaterJug */ = {
+			isa = PBXGroup;
+			children = (
+				F994A98C24007D960048CF12 /* Application */,
+				F994A98924007D490048CF12 /* Controller */,
+				F9392D0D2400869200A70E65 /* View */,
+				F994A98824007D420048CF12 /* Model */,
+				F994A97D24007C280048CF12 /* LaunchScreen.storyboard */,
+				F994A98B24007D640048CF12 /* Resources */,
+				F994A98A24007D590048CF12 /* SupportingFiles */,
+				F9392D10240099F100A70E65 /* TableViewCell.swift */,
+				F9392D1424009E5100A70E65 /* UIViewController+Extension.swift */,
+			);
+			path = WaterJug;
+			sourceTree = "<group>";
+		};
+		F994A98824007D420048CF12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D182400A58400A70E65 /* ActionManager.swift */,
+				F994A98624007D2F0048CF12 /* Container.swift */,
+				F9392D162400A48000A70E65 /* Action.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F994A98924007D490048CF12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D09240084BF00A70E65 /* MainViewController.swift */,
+				F9392D0E2400877600A70E65 /* MainViewModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F994A98A24007D590048CF12 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F994A98024007C280048CF12 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F994A98B24007D640048CF12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F994A97B24007C280048CF12 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F994A98C24007D960048CF12 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F994A97224007C230048CF12 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F994A96E24007C230048CF12 /* WaterJug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F994A98324007C280048CF12 /* Build configuration list for PBXNativeTarget "WaterJug" */;
+			buildPhases = (
+				29934CBBE880649AF420D082 /* [CP] Check Pods Manifest.lock */,
+				F994A96B24007C230048CF12 /* Sources */,
+				F994A96C24007C230048CF12 /* Frameworks */,
+				F994A96D24007C230048CF12 /* Resources */,
+				83E8F06A384312ADF0E448E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterJug;
+			productName = WaterJug;
+			productReference = F994A96F24007C230048CF12 /* WaterJug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F994A96724007C230048CF12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Vitalii Zaitcev";
+				TargetAttributes = {
+					F994A96E24007C230048CF12 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F994A96A24007C230048CF12 /* Build configuration list for PBXProject "WaterJug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F994A96624007C230048CF12;
+			productRefGroup = F994A97024007C230048CF12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F994A96E24007C230048CF12 /* WaterJug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F994A96D24007C230048CF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F994A97F24007C280048CF12 /* LaunchScreen.storyboard in Resources */,
+				F994A97C24007C280048CF12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29934CBBE880649AF420D082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterJug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E8F06A384312ADF0E448E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaterJug/Pods-WaterJug-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaterJug/Pods-WaterJug-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaterJug/Pods-WaterJug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F994A96B24007C230048CF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9392D1524009E5100A70E65 /* UIViewController+Extension.swift in Sources */,
+				F9392D192400A58400A70E65 /* ActionManager.swift in Sources */,
+				F9392D172400A48000A70E65 /* Action.swift in Sources */,
+				F9392D0F2400877600A70E65 /* MainViewModel.swift in Sources */,
+				F9392D1324009A6800A70E65 /* SubmitInputTableViewCell.swift in Sources */,
+				F994A98724007D2F0048CF12 /* Container.swift in Sources */,
+				F994A97324007C230048CF12 /* AppDelegate.swift in Sources */,
+				F9392D0C2400868F00A70E65 /* InputTableViewCell.swift in Sources */,
+				F9392D11240099F100A70E65 /* TableViewCell.swift in Sources */,
+				F9392D1B2400AEE100A70E65 /* ActionTableViewCell.swift in Sources */,
+				F9392D0A240084BF00A70E65 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F994A97D24007C280048CF12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F994A97E24007C280048CF12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F994A98124007C280048CF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F994A98224007C280048CF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F994A98424007C280048CF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB867F450850B297BBBB3FC0 /* Pods-WaterJug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A28SKUH54N;
+				INFOPLIST_FILE = WaterJug/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = challendge.WaterJug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F994A98524007C280048CF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977DD00E90C412A5BFB7135B /* Pods-WaterJug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A28SKUH54N;
+				INFOPLIST_FILE = WaterJug/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = challendge.WaterJug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F994A96A24007C230048CF12 /* Build configuration list for PBXProject "WaterJug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F994A98124007C280048CF12 /* Debug */,
+				F994A98224007C280048CF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F994A98324007C280048CF12 /* Build configuration list for PBXNativeTarget "WaterJug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F994A98424007C280048CF12 /* Debug */,
+				F994A98524007C280048CF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F994A96724007C230048CF12 /* Project object */;
+}
