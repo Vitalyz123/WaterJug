@@ -83,6 +83,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F9392D1C2400B97B00A70E65 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D1E2400B99100A70E65 /* Reusable */,
+				F9392D1D2400B98400A70E65 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F9392D1D2400B98400A70E65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D1424009E5100A70E65 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9392D1E2400B99100A70E65 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				F9392D10240099F100A70E65 /* TableViewCell.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
 		F994A96624007C230048CF12 = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +133,9 @@
 				F994A98924007D490048CF12 /* Controller */,
 				F9392D0D2400869200A70E65 /* View */,
 				F994A98824007D420048CF12 /* Model */,
-				F994A97D24007C280048CF12 /* LaunchScreen.storyboard */,
 				F994A98B24007D640048CF12 /* Resources */,
 				F994A98A24007D590048CF12 /* SupportingFiles */,
-				F9392D10240099F100A70E65 /* TableViewCell.swift */,
-				F9392D1424009E5100A70E65 /* UIViewController+Extension.swift */,
+				F9392D1C2400B97B00A70E65 /* Utilities */,
 			);
 			path = WaterJug;
 			sourceTree = "<group>";
@@ -139,6 +162,7 @@
 		F994A98A24007D590048CF12 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				F994A97D24007C280048CF12 /* LaunchScreen.storyboard */,
 				F994A98024007C280048CF12 /* Info.plist */,
 			);
 			path = SupportingFiles;
